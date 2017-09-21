@@ -1,0 +1,21 @@
+--COMPARTIR FITXERS--
+
+AppUB
+    --> Controller : shareFiles(user, files)
+        --> Data : shareFiles(user, files)
+            --> MediaFile : setShared(boolean)
+            --> PrivateRepository : addFile(file)
+                
+--REPRODUCCIÓ ALEATORIA--
+AppUB
+    --> Controller : setCiclic(ciclic)
+        --> Data : setCiclic(ciclic)
+    --> Controller : playPrivateRepository()
+        --> Data : playPrivateRepository()
+            --> PlayListener : startPlayback()
+            
+--REPRODUCCIÓ SELECTIVA--
+AppUB
+    -->Controller : playFiles(fileList)
+        -->Data : playFiles(fileList)
+            --> PlayListener : startPlayback()
