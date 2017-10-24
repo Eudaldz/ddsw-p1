@@ -1,0 +1,50 @@
+﻿Descripció: UC3. Veure Catàleg
+ 
+ 
+Actors: Client, Usuari
+ 
+ 
+Precondicions: El cataleg no està buit
+ 
+ 
+
+Flux bàsic:
+    
+0. El client escull veure el catàleg
+    
+1. El sistema mostra la llista(amb un nombre màxim) de sèries del catàleg en funció de la popularitat. El sistema ofereix a l'usuari seleccionar una sèrie per veure'n més detalls
+    
+2. El client està satisfet amb l'operació
+    
+3. Fin de la cita
+    
+
+
+Flux alternatiu:
+    
+    
+2a. El client vol veure més sèries.
+        
+	1. El sistema carrega una llista successora i torna al pas 1 del flux basic.
+    
+    
+2b. El client vol ordernar les sèries en funció d'un altre paramatre.
+        
+	1. El sistema li mostra els paramatres disponibles per ordenar.
+        
+	2. L'usuari escull un paràmetre
+        
+	3. El sistema va al pas 1 del flux bàsic.
+        
+    
+2c. El client selecciona una sèrie per veure'n més detalls.
+        
+	1. Saltem a UC2.
+        
+	2. Saltem a punt 1 del flux basic
+
+
+
+Postcondicions: El client està feliç i satisfet amb el programa.
+
+(Saber que el client està satisfet t'omple amb determinació)

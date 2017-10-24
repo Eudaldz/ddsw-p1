@@ -1,0 +1,33 @@
+﻿Descripcio:  UC6. Veure Episodi
+
+
+Actors: Client
+
+
+Precondicions: L'episodi existeix, i no es visualitzen altres episodis simultaniament.
+
+
+
+Flux bàsic:
+    
+0. El client selecciona l'episodi per visualitzar.
+    
+1. El sistema comença la reproducció
+    
+2. El sistema ofereix opcions per controlar la reproducció.
+    
+3. L'usuari està content amb la reproducció i continua fins el final.
+    
+4. saltem UC7
+
+
+
+Flux alternatiu:
+
+    
+3b. El client  atura la reproducció i surt del flux.
+    
+
+
+Postcondicions: El client està feliç i satisfet amb l'aplicació.
+    

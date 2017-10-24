@@ -1,0 +1,31 @@
+﻿Descripció: UC8. Valorar episodi 
+
+
+Actors: Client
+
+
+Precondició: Episodi escullit visualitzat
+
+
+
+Flux bàsic:
+    
+1. El sistema ofereix una valoració entre 1 i 5 a l'usuari.
+    
+2. El client introdueix un valor.
+    
+3. El sistema el felicita i li agraeix la valoració.
+    
+4. Fin de la cita
+
+
+
+Flux excepcional:
+    
+2a. L'usuari introdueix (d'alguna forma) un valor no acceptat.
+        
+1. El sistema rebutja l'input i li dona una segona oportunitat. Salta al punt 1 del flux bàsic.
+        
+
+
+Postcondicions: El client està feliç i satisfet.
