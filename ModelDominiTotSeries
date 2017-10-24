@@ -1,0 +1,66 @@
+@startuml
+
+title Model de domini TotSeries
+
+class TotSeries
+class Catàleg
+
+class Series {
+  +String Titol
+  +String BreuDescripcio
+}
+class Artistes
+class ArtistesPersones{
+  +String nom
+  +String nacionalitat
+}
+class Actor
+class Director
+class Productora{
+  +String nom
+  +int identificador
+  +int any
+}
+class Temporada{
+  +int numero
+}
+class Episodi{
+  +float duració
+  +String titol
+  +String Descripció
+  +int valoració
+  +Date data
+}
+class Clients{
+  +String usuari
+  +String password
+  +String nacionalitat
+  +String nomreal
+  +Date naixement
+}
+class Alumne
+class Profe
+class Streamer
+
+TotSeries "1" - "1" Catàleg
+
+ArtistesPersones <|-down- Actor: Herència
+ArtistesPersones <|-down- Director: Herència
+Artistes <|-down- ArtistesPersones: Herència
+Artistes <|-down- Productora: Herència
+
+Clients <|-down- Profe: Herència
+Clients <|-down- Alumne: Herència
+
+Clients "consulten" - Catàleg
+Clients "valoren" - Episodi
+Clients "1" - "1" Streamer
+Streamer "1" - "1" Episodi
+
+Catàleg "1" - "*" Series
+Series "1" - "*" Temporada
+Temporada "1" - "*" Episodi
+Series "1" - "*" Artistes
+Series "1" - "1" Productora
+
+@enduml
