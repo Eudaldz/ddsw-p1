@@ -4,7 +4,7 @@
 Actors: Client
 
 
-Precondicions: L'episodi existeix, i no es visualitzen altres episodis simultaniament.
+Precondicions: L'episodi existeix, i no es visualitzen altres episodis simultàniament.
 
 
 
@@ -12,13 +12,13 @@ Flux bàsic:
     
 0. El client selecciona l'episodi per visualitzar.
     
-1. El sistema comença la reproducció
+1. El sistema comença la reproducció.
     
 2. El sistema ofereix opcions per controlar la reproducció.
     
 3. L'usuari està content amb la reproducció i continua fins el final.
     
-4. saltem UC7
+4. Saltem UC7.
 
 
 
@@ -29,5 +29,4 @@ Flux alternatiu:
     
 
 
-Postcondicions: El client està feliç i satisfet amb l'aplicació.
-    
+Postcondicions: El client està satisfet amb l'aplicació.
