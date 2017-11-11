@@ -2,14 +2,12 @@ CARD:
 
 COM A: Usuari loguejat
 VULL: Valorar un episodi que ja he visualitzat
-PER A: Compartir la meva opinió tan rellevant
+PER A: Compartir la meva opiniÃ³
 
 CONVERSATION:
 -Que passa si l'episodi no s'ha visualitzat?
 -Que passa si entres un valor incorrecte (magicament)?
--Que passa si la teva opinio no importa a ningu?
 
 CONFIRMATION:
 -No et deixa valorar-lo.
 -Mostra un missatge d'error: "Valor incorrecte"
--Mostra un missatge d'error: "KYS"
