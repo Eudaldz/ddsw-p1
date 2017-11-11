@@ -10,13 +10,13 @@ Precondicions: El cataleg no està buit
 
 Flux bàsic:
     
-0. El client escull veure el catàleg
+0. El client escull veure el catàleg.
     
-1. El sistema mostra la llista(amb un nombre màxim) de sèries del catàleg en funció de la popularitat. El sistema ofereix a l'usuari seleccionar una sèrie per veure'n més detalls
+1. El sistema mostra la llista(amb un nombre màxim) de sèries del catàleg en funció de la popularitat. El sistema ofereix a l'usuari seleccionar una sèrie per veure'n més detalls.
     
-2. El client està satisfet amb l'operació
+2. El client està satisfet amb l'operació.
     
-3. Fin de la cita
+3. Fi de la cita. (Cal afeguir el punt de final? Suposo que si)
     
 
 
@@ -46,5 +46,3 @@ Flux alternatiu:
 
 
 Postcondicions: El client està feliç i satisfet amb el programa.
-
-(Saber que el client està satisfet t'omple amb determinació)
