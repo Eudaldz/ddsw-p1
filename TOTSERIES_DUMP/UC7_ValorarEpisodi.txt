@@ -16,7 +16,7 @@ Flux bàsic:
     
 3. El sistema el felicita i li agraeix la valoració.
     
-4. Fin de la cita
+4. Fin de la cita.
 
 
 
