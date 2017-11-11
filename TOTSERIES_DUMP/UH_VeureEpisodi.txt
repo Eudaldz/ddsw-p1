@@ -1,17 +1,13 @@
 CARD:
 
-COM A: Usuari loguejat
-VULL: Reproduir un episodi
-PER A: Disfrutar una estona
+COM A: Usuari loguejat.
+VULL: Reproduir un episodi.
+PER A: Disfrutar una estona.
 
 CONVERSATION:
--Que passa si l'usuari completa la reproducció?
--Que passa si l'usuari cancela la reproducció?
+-Que passa si l'usuari completa la reproducciÃ³?
+-Que passa si l'usuari cancela la reproducciÃ³?
 
 COMFIRMATION:
 -Salta a valorar episodi.
 -Salta a l'estat inicial.
-
-
-//No entenc com funciona aixo.
- 
