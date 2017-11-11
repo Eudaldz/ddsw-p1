@@ -13,13 +13,13 @@ Flux bàsic:
 0. El client escull veure els detalls d'una sèrie.
 
 
-1. El sistema mostra: Titol, breu descripció, productora, nombre de temporades i episodis.
+1. El sistema mostra: Títol, breu descripció, productora, nombre de temporades i episodis.
 
 
 2. El sistema li ofereix la opció de veure detalls sobre els artistes participants i detalls sobre els episodis.
 
 
-3. El client està satisfet amb la informació i acaba la operació
+3. El client està satisfet amb la informació i acaba la operació.
 
 
 
@@ -39,11 +39,11 @@ Flux alternatiu:
     
 	1. El sistema mostra el titol de l'episodi, la duració, breu descripció, i data d'emisió.
     
-	2. El client està satisfet
+	2. El client està satisfet.
     
 	3. Torna al pas 1 del flux bàsic
     
 
 
 
-Postcondicions: El client està satisfet i content, i sobre tot, determinat a viure.
+Postcondicions: El client està satisfet i content.
