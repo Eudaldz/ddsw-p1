@@ -5,13 +5,11 @@ VULL: Reproduir un episodi
 PER A: Disfrutar una estona
 
 CONVERSATION:
--Que passa si l'usuari completa la reproducci�?
--Que passa si l'usuari cancela la reproducci�?
+-Què passa si l'usuari ja està visualitzant un altre episodi?
+-Què passa si l'usuari completa la reproducció?
+-Què passa si l'usuari cancela la reproducció?
 
 COMFIRMATION:
+-Salta un missatge avisant que només es pot reproduir un episodi a la vegada.
 -Salta a valorar episodi.
 -Salta a l'estat inicial.
-
-
-//No entenc com funciona aixo.
- 
